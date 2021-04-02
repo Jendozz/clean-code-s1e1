@@ -26,7 +26,7 @@
   .header {
     text-align: center;
   }
-  
+
 }
 
 .main {
@@ -46,16 +46,16 @@
 }
 
 .main-task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .main-task-item, .main-title {
-  list-style:none;
+  list-style: none;
 }
 
 .task, .btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -166,14 +166,14 @@
 
 /* Edit Task */
 .main-task-item .task-text {
-  display:none
+  display: none
 }
 
 .edit-mode .task-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-label {
-  display:none;
+  display: none;
 }

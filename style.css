@@ -1,49 +1,63 @@
 /* Basic Style */
+
 .page {
   background-color: #f8f8f8;
   color: #333;
   font-family: lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-img {
   width: 100%;
 }
+
 .header .more-info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header {
+    text-align: center;
+  }
+  
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 .main-task-list {
   margin:0;
   padding: 0px;
 }
+
 .main-task-item, .main-title {
   list-style:none;
 }
+
 .task, .btn{
   outline:none;
 }
+
 .btn {
   background: none;
   border: 0px;
@@ -53,9 +67,12 @@
   font-family: lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3a3a;
 }
+
+
 /* Heading */
 .main-title,
 .main-article {
@@ -67,6 +84,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-text {
   margin: 0;
   font-size: 18px;
@@ -79,6 +97,7 @@
   font-family: lato, sans-serif;
   color: #888;
 }
+
 .task-text:focus {
   color: #333;
 }
@@ -88,9 +107,11 @@
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
+
 
 /* Task list */
 .main-task-item {
@@ -102,6 +123,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .main-task-item {
   vertical-align: middle;
 }
@@ -109,26 +131,32 @@
 .main-task-item > .checkbox {
   margin: 0 10px;
 }
+
 .main-task-item > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-text {
   width: 226px
 }
+
 .delete:hover {
   color: #cf2323;
 }
+
 .delete-pic {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-pic:hover {
   transform: rotateZ(0);
 }
+
 
 /* Completed */
 #completed-tasks .task-label {
